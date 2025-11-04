@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: whitesmoke;
-
+padding: 0 0.7rem;
   top: 0;
 }
 header img {
@@ -28,11 +28,21 @@ header img {
 nav ul {
   display: flex;
   list-style-type: none;
-  gap: 0.7rem;
+  gap: 1rem;
 }
 ul li {
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  
+}
+ul li:hover{
+  background-color: var(--dark-brown);
+  color: whitesmoke;
+  cursor: pointer;
+  transform: scale(1.3);
+  padding: 1px;
+  transition:  all 200ms ease-in-out;
+  border-radius: 5px;
 }
 .container {
   background-color: var(--light-brown);
