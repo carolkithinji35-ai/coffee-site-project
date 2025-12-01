@@ -205,3 +205,12 @@ footer {
   color: var(--brown);
   font-size: 1rem;
 }
+@media screen and (max-width: 600px) {
+  .slogan {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+}
